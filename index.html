@@ -72,8 +72,7 @@ eventbrite: 18712454455      # optional (insert the alphanumeric key for Eventbr
 
 <p align="center">
   <em>
-    For more information on what we teach and why,
-    please see our paper
+    Po więcej informacji o tym czego i jak uczymy zajrzyj do naszej pracy 
     "<a href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745">Best Practices for Scientific Computing</a>".
   </em>
 </p>
@@ -81,7 +80,7 @@ eventbrite: 18712454455      # optional (insert the alphanumeric key for Eventbr
 <h3>Warsztaty zorganizowane dzięki pomocy Tech Space</h3>
 
 <p align="center">
-<a href="http://gototech.space/"><img
+<a href="http://gototech.space/" target="_blank"><img
   src="{{page.root}}/techspace.png" alt="Tech Space"/></a>
 </p>
 
@@ -116,10 +115,12 @@ eventbrite: 18712454455      # optional (insert the alphanumeric key for Eventbr
 <h2>Gdzie</h2>
 <p>
   {{page.address}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  Sprawdź dojazd za pomocą 
+  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16" target="_blank">OpenStreetMap</a>
+  , 
+  <a href="//maps.google.com/maps?q={{page.latlng}}" target="_blank">Google Maps</a>
+  lub
+  <a href="//krakow.jakdojade.pl/?tn=Wycz%C3%B3%C5%82kowskiego%207" target="_blank">jakdojade.pl</a>.
 </p>
 {% endif %}
 
@@ -131,9 +132,10 @@ eventbrite: 18712454455      # optional (insert the alphanumeric key for Eventbr
 <h2>Wymagania</h2>
 <p>
   
-  Uczestnicy muszą przynieść ze sobą laptopy z zainstalowanymi wcześniej kilkoma programi
-  (wymienionymi <a href="#setup">poniżej</a>). Wymagane jest również przestrzeganie Software
-  Carpentry's <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+  Uczestnicy proszeni są o przyniesienie na warsztaty <strong>własnych laptopów</strong>.
+  Konieczne będzie skonfigurowanie ich przed warsztatami, zgodnie z podanymi poniżej <a href="#setup">instrukcjami</a>.
+  Na warsztatach każdy jest zobowiązany przestrzegać <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>
+  od Software Carpentry. W skrócie: prosimy odnosić się do siebie kulturalnie, uprzejmie i z szacunkiem.
 
 </p>
 
@@ -145,14 +147,13 @@ eventbrite: 18712454455      # optional (insert the alphanumeric key for Eventbr
   used.
 -->
 <p>
-  <strong>Contact</strong>:
-  Please mail
+  <strong>Kontakt</strong>:
+  Wszelkie pytania prosimy kierować na
   {% if page.contact %}
     <a href='mailto:{{page.contact}}'>{{page.contact}}</a>
   {% else %}
     <a href='mailto:{{site.contact}}'>{{site.contact}}</a>
-  {% endif %}
-  for more information.
+  {% endif %}.
 </p>
 
 <hr/>
@@ -215,7 +216,7 @@ eventbrite: 18712454455      # optional (insert the alphanumeric key for Eventbr
 <p>
   <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
   <br/>
-  We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
+  W trakcie warsztatów będziemy używać tego Etherpada do pisania notatek, komunikacji oraz współdzielenia odnośników czy fragmentów kodu.
 </p>
 {% endif %}
 
